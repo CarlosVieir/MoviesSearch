@@ -15,3 +15,10 @@ body{
 	background-image: url(img/wl.jpg);
 	background-repeat: no-repeat;
 }
+
+#search{
+	height: 50px;
+	width: 650px;
+	border-radius: 10px;
+	background-color: rgba(120, 0, 0, 0.2);
+}
