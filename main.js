@@ -3,7 +3,7 @@ let baseURL = "https://api.themoviedb.org/3/search/movie?api_key=";
 let imageURL = "https://image.tmdb.org/t/p/w500/";
 let favoriteURL = "https://api.themoviedb.org/3/movie/popular?api_key=dec1430dea397117976757d045cef9ef&language=en-US&page=1"
 
-//Carlo VIeira
+
 
 //create all eventsListner;
 function listener(elementeId, inpuTYpe, callBack){
