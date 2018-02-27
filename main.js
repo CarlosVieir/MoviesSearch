@@ -2,7 +2,7 @@ let APIKEY = "dec1430dea397117976757d045cef9ef";
 let baseURL = "https://api.themoviedb.org/3/search/movie?api_key=";
 let imageURL = "https://image.tmdb.org/t/p/w500/";
 let favoriteURL = "https://api.themoviedb.org/3/movie/popular?api_key=dec1430dea397117976757d045cef9ef&language=en-US&page=1"
-
+let topRate = "https://api.themoviedb.org/3/movie/top_rated?api_key=dec1430dea397117976757d045cef9ef&language=en-US&page=1"
 
 
 //create all eventsListner;
@@ -15,7 +15,14 @@ function buttonFav(){
     listener('pop', 'click', eventL(favoriteURL));
     document.getElementById("pop").style.visibility = "hidden";
     document.getElementById("search").style.visibility = "hidden";
+    document.getElementById("rate").style.visibility = "hidden";
+}
 
+function buttonTop(){
+    listener('pop', 'click', eventL(topRate));
+    document.getElementById("rate").style.visibility = "hidden";
+    document.getElementById("pop").style.visibility = "hidden";
+    document.getElementById("search").style.visibility = "hidden";
 }
 
 // function to search movie;
