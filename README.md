@@ -1,2 +1,2 @@
 # MoviesSearch
-Project to traine API in javaScript (funtion fetch)
+Project to traine API in javaScript (function fetch)
