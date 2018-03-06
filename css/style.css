@@ -6,19 +6,51 @@
 	border: 0;
 	padding: 0;
 	font-family: 'Righteous', cursive;
-	color: black;
+	color: grey;
 	list-style: none;
 }
 
 
 body{
-	background-image: url(img/wall.jpg);
+	background-image: url(../img/wall.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 1920px;
+	max-height: 100vh;
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 100vh
 }
 
 #search{
-	height: 40px;
-	width: 650px;
+	height: 80px;
+	width: 1000px;
+	max-width: 1000px;
+	max-height: 80px;
+	min-height: 80px;
+	min-width: 1000px;
+	color: black;
+	font-size: 30px;
+	text-align: center;
 	border-radius: 10px;
-	background-color: rgba(120, 0, 0, 0.2);
+	background-color: rgba(158, 142, 142, 0.8);
+	position: absolute;
+	top: 50vh;
+	left: 50%;
+	transform: translateX(-50%)translateY(-50%);
+}
+
+
+.row{
+	flex-flow: row;
+}
+
+
+
+nav{
+	height: 100vh;
+	width: 80px;
+	background-color: white;
+	border-radius: 0px 15px 15px 0px; 
 }

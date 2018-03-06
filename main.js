@@ -33,6 +33,7 @@ function searchKeyword(){
         let uls = "".concat(baseURL,APIKEY,'&language=en-US&query=',keyword.value,'&page=1&include_adult=false');
         if (e.keyCode === 13) {
         eventL(uls);
+        document.getElementById("search").style.visibility = "hidden"; //hidde search bar after enter
       }  
     })
 }
